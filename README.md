@@ -1,10 +1,80 @@
 # dotfiles-plugin-template
 
-
 ## Getting started
 
+This repository is used like a template by [dotfiles project](https://github.com/autentia/dotfiles). If you want to use this repository to extend your ```dotfiles``` configuration you have two options:
 
-## Add your files
+1. Using ```dotfiles``` command to initialize your plugin executing the following command replacing "<PLUGIN_NAME>" with the desired name:
 
-- [ ] [Create](https://gitlab.com/-/experiment/new_project_readme_content:3f2be0eab47edaf7f4986d71e4f980be?https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://gitlab.com/-/experiment/new_project_readme_content:3f2be0eab47edaf7f4986d71e4f980be?https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://gitlab.com/-/experiment/new_project_readme_content:3f2be0eab47edaf7f4986d71e4f980be?https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+```shell
+dotfiles create-plugin <PLUGIN_NAME>
+```
+
+For example:
+
+```shell
+dotfiles create-plugin my-awesome-plugin
+```
+
+
+2. Fork this repository to your GitHub profile and commit your changes.
+
+
+## File structure
+
+
+```shell
+├─ bin   # This folder contains custom binaries. 
+├─ git   # This folder contains your git config.
+├─ os    # This folder contains your specific config for your Operating System.
+├─ zsh   # This folder contains your config scripts for your terminal.
+```
+
+Relax, you have an explanation file for each folder:
+
+- [bin](bin/README.md)
+- [git](git/README.md)
+- [os](os/README.md)
+- [zsh](zsh/README.md)
+
+## How to install
+
+If you have your plugin configured then you can add it to ```dotfiles``` in your computer executing:
+
+```shell
+dotfiles install-plugin <GIT_REPOSITORY_URL>
+```
+
+For example:
+
+```shell
+dotfiles install-plugin git@github.com:autentia/my-awesome-plugin-template.git
+```
+
+## How to update
+
+Plugins are linked to git repository, so you can commit your changes to your plugin repository and then execute:
+
+```shell
+dotfiles update-plugin <PLUGIN_NAME>
+```
+
+For example:
+
+```shell
+dotfiles update-plugin my-awesome-plugin
+```
+
+## How to remove
+
+If you have a plugin that you no longer want to use, you can remove it executing:
+
+```shell
+dotfiles uninstall-plugin <PLUGIN_NAME>
+```
+
+For example:
+
+```shell
+dotfiles uninstall-plugin my-awesome-plugin
+```
