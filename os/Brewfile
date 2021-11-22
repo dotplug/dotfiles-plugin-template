@@ -1,0 +1,144 @@
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/cask'
+
+# ============================================================================
+# GUI
+# ============================================================================
+
+# This is used to don't turn off the screen when idle
+# cask 'caffeine'
+
+# This is used to move windows and resize it.
+# cask 'hammerspoon'
+
+# To delete applications with some confidence
+# cask 'appcleaner'
+
+# To edit screenshots
+# cask 'skitch'
+
+# Calculator
+# cask 'numi'
+
+# ============================================================================
+# Password manager
+# ============================================================================
+
+# cask '1password'
+# cask 'lastpass'
+
+# ============================================================================
+# Browsers
+# ============================================================================
+
+# cask 'firefox'
+# cask 'google-chrome'
+# cask 'brave-browser'
+# cask 'qutebrowser'
+# cask 'opera-gx'
+
+# ============================================================================
+# Communication
+# ============================================================================
+
+# cask 'slack'
+# cask 'zoomus'
+# cask 'microsoft-teams'
+# cask 'skype'
+# cask 'discord'
+
+# ============================================================================
+# VPN
+# ============================================================================
+
+# cask 'forticlient-vpn'
+
+# ============================================================================
+# IDE
+# ============================================================================
+
+# cask 'jetbrains-toolbox'
+# cask 'visual-studio-code'
+
+# ============================================================================
+# Terminal
+# ============================================================================
+
+# Replacement for Terminal on macOS
+# cask 'iterm2'
+
+# Version control of text stuff
+# brew 'git'
+
+# Editor
+# brew 'vim'
+# brew 'nvim'
+
+# Simple yet powerful editor https://github.com/zyedidia/micro
+# brew 'micro'
+
+# To fuzzy find in terminal
+# brew 'fzf'
+
+# Useful Http client
+# brew 'httpie'
+
+# Commands corrector
+# brew 'thefuck'
+
+# To use the commandline "tree" useful for write project structures
+# brew 'tree'
+
+# To view json files
+# brew 'jq'
+
+# To enable use of .envrc and makefiles properly without manual steps
+# brew 'direnv'
+
+# ============================================================================
+# Web Development
+# ============================================================================
+
+# To edit your /etc/hosts files and compose it
+# cask 'gas-mask'
+# cask 'http-toolkit'
+
+# ============================================================================
+# Personal
+# ============================================================================
+
+# To listen to music
+# cask 'spotify'
+
+# ============================================================================
+# DevOps. This should be installed per project, instead of in the system.
+# ============================================================================
+
+# AWS
+# brew 'awscli'
+# brew 'aws-iam-authenticator'
+
+# IaC
+# Wrapper for Terraform
+# To manage terraform custom versions per project
+# brew 'tfenv'
+
+# To validate terraform scripts
+# brew 'tflint'
+
+# Virtualization
+# cask 'vagrant'
+# cask 'virtualbox'
+# cask 'docker'
+# brew 'packer'
+# brew 'minikube'
+# brew 'helm'
+# brew 'k9s'
+
+# ============================================================================
+# Network. This should be installed per project, instead of in the system.
+# ============================================================================
+
+# Required for local port forwarding in a public IP
+# cask 'ngrok'
